@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = CodeChecker::VERSION
   spec.authors       = ['kingcos']
   spec.email         = ['2821836721v@gmail.com']
-  spec.description   = %q{A short description of danger-code_checker.}
-  spec.summary       = %q{A longer description of danger-code_checker.}
+  spec.description   = %q{A Danger plugin for simply checking your code as you like.}
+  spec.summary       = %q{A Danger plugin for simply checking your code as you like.}
   spec.homepage      = 'https://github.com/kingcos/danger-code_checker'
   spec.license       = 'MIT'
 
