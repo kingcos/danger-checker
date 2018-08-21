@@ -1,6 +1,6 @@
 # danger-code_checker
 
-A description of danger-code_checker.
+A Danger plugin for simply checking your code as you like.
 
 ## Installation
 
