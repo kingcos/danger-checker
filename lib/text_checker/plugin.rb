@@ -13,10 +13,10 @@ module Danger
   #
   #          my_plugin.warn_on_mondays
   #
-  # @see  kingcos/danger-code_checker
+  # @see  kingcos/danger-text_checker
   # @tags monday, weekends, time, rattata
   #
-  class DangerCodeChecker < Plugin
+  class DangerTextChecker < Plugin
 
     # An attribute that you can read/write from your Dangerfile
     #

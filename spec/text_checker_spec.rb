@@ -1,9 +1,9 @@
 require File.expand_path("../spec_helper", __FILE__)
 
 module Danger
-  describe Danger::DangerCodeChecker do
+  describe Danger::DangerTextChecker do
     it "should be a plugin" do
-      expect(Danger::DangerCodeChecker.new(nil)).to be_a Danger::Plugin
+      expect(Danger::DangerTextChecker.new(nil)).to be_a Danger::Plugin
     end
 
     #
@@ -12,7 +12,7 @@ module Danger
     describe "with Dangerfile" do
       before do
         @dangerfile = testing_dangerfile
-        @my_plugin = @dangerfile.code_checker
+        @my_plugin = @dangerfile.text_checker
 
         # mock the PR data
         # you can then use this, eg. github.pr_author, later in the spec

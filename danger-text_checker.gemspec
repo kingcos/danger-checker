@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'code_checker/gem_version.rb'
+require 'text_checker/gem_version.rb'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'danger-code_checker'
-  spec.version       = CodeChecker::VERSION
+  spec.name          = 'danger-text_checker'
+  spec.version       = TextChecker::VERSION
   spec.authors       = ['kingcos']
   spec.email         = ['2821836721v@gmail.com']
-  spec.description   = %q{A Danger plugin for simply checking your code as you like.}
-  spec.summary       = %q{A Danger plugin for simply checking your code as you like.}
-  spec.homepage      = 'https://github.com/kingcos/danger-code_checker'
+  spec.description   = %q{A short description of danger-text_checker.}
+  spec.summary       = %q{A longer description of danger-text_checker.}
+  spec.homepage      = 'https://github.com/kingcos/danger-text_checker'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)

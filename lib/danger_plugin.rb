@@ -1,1 +1,1 @@
-require "code_checker/plugin"
+require "text_checker/plugin"

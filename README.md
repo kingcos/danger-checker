@@ -1,15 +1,15 @@
-# danger-code_checker
+# danger-text_checker
 
-A Danger plugin for simply checking your code as you like.
+A description of danger-text_checker.
 
 ## Installation
 
-    $ gem install danger-code_checker
+    $ gem install danger-text_checker
 
 ## Usage
 
     Methods and attributes from this plugin are available in
-    your `Dangerfile` under the `code_checker` namespace.
+    your `Dangerfile` under the `text_checker` namespace.
 
 ## Development
 
