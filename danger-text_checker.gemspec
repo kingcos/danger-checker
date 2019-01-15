@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = TextChecker::VERSION
   spec.authors       = ['kingcos']
   spec.email         = ['2821836721v@gmail.com']
-  spec.description   = %q{A short description of danger-text_checker.}
-  spec.summary       = %q{A longer description of danger-text_checker.}
+  spec.description   = %q{danger-text_checker is a plugin for Danger to simply check your text as you like.}
+  spec.summary       = %q{For more, please visit https://github.com/kingcos/danger-text_checker.}
   spec.homepage      = 'https://github.com/kingcos/danger-text_checker'
   spec.license       = 'MIT'
 
