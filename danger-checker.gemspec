@@ -2,16 +2,16 @@
 
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "text_checker/gem_version.rb"
+require "checker/gem_version.rb"
 
 Gem::Specification.new do |spec|
-  spec.name          = "danger-text_checker"
-  spec.version       = TextChecker::VERSION
+  spec.name          = "danger-checker"
+  spec.version       = Checker::VERSION
   spec.authors       = ["kingcos"]
   spec.email         = ["2821836721v@gmail.com"]
-  spec.description   = "danger-text_checker is a plugin for Danger to simply check your text as you like."
-  spec.summary       = "For more, please visit https://github.com/kingcos/danger-text_checker."
-  spec.homepage      = "https://github.com/kingcos/danger-text_checker"
+  spec.description   = "danger-checker is a plugin for Danger to simply check your changes as you like."
+  spec.summary       = "For more, please visit https://github.com/kingcos/danger-checker."
+  spec.homepage      = "https://github.com/kingcos/danger-checker"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "danger-plugin-api", "~> 1.0"
 
   # General ruby development
-  spec.add_development_dependency "bundler", "~> 1.3"
+  spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
 
   # Testing support

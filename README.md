@@ -1,17 +1,17 @@
-# danger-text_checker
+# danger-checker
 
-[![Build Status](https://travis-ci.org/kingcos/danger-text_checker.svg?branch=master)](https://travis-ci.org/kingcos/danger-text_checker)
+[![Build Status](https://travis-ci.org/kingcos/danger-checker.svg?branch=master)](https://travis-ci.org/kingcos/danger-checker)
 
-**danger-text_checker** is a plugin for [Danger](https://danger.systems/swift) to simply check your text as you like.
+**danger-checker** is a plugin for [Danger](https://danger.systems/swift) to simply check your changes as you like.
 
 ## Installation
 
-    $ gem install danger-text_checker
+    $ gem install danger-checker
 
 ## Usage
 
     Methods and attributes from this plugin are available in
-    your `Dangerfile` under the `text_checker` namespace.
+    your `Dangerfile` under the `checker` namespace.
 
 ## Development
 

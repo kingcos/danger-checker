@@ -2,5 +2,5 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in danger-text_checker.gemspec
+# Specify your gem's dependencies in danger-checker.gemspec
 gemspec
